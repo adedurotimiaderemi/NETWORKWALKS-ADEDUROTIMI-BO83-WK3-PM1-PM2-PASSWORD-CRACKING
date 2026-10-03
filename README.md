@@ -51,7 +51,7 @@ The encrypted PDF was uploaded to the OnlineHashCrack PDF Hash Extractor (which 
 $pdf$4*4*128*-1060*1*16*55d1a5c14175da449753199e44971d32*32*777fd021a7f3c5ae598c0c6495c7f76e00000000000000000000000000000000*32*ceecdac74b19b5a62688d3b3524e1374c955cbb9cc3c45316494d9446ef81af1
 ```
 
-📸![Dashboard](pwcrack-screenshots/fisthashed.PNG)
+📸![Dashboard](screenshots/fisthashed.PNG)
 
 **Step 2 — Crack the hash with Johnny**
 
@@ -59,7 +59,7 @@ The hash file was opened in Johnny (JTR's GUI) and an attack was started.
 
 **Result:** Cracked in a single pass — **`password1`**
 
-📸 `pwcrack-screenshots/passhash1.PNG`
+📸![Dashboard](screenshots/passhash1.PNG)
 
 **Step 3 — Unlock the PDF**
 
@@ -67,7 +67,7 @@ Opening the PDF with `password1` revealed:
 
 > 🎉 **Flag 1:** `nw{networkwalks_flag1_jtr_270521_1}`
 
-📸 `pwcrack-screenshots/capturedflag1.PNG`
+📸![Dashboard](screenshots/capturedflag1.PNG)
 
 ---
 
@@ -95,7 +95,7 @@ Opening the PDF with `password1` revealed:
 >
 > *"Cracking passwords is all about patience and the right wordlist. You are learning the mindset of a real security tester at Networkwalks."*
 
-📸 `pwcrack-screenshots/capturedflag2.PNG`
+📸![Dashboard](screenshots/capturedflag2.PNG)
 
 ---
 
@@ -115,7 +115,7 @@ $pdf$4*4*128*-1028*1*16*34eb542eff4e1b0b32d25ce15a9a7281*32*b77872bfc9a24fb2f845
 
 (Revision 4, Version 4, 128-bit key length)
 
-📸 `pwcrack-screenshots/thirdhash.PNG`
+📸 ![Dashboard](screenshots/thirdhash.PNG)
 
 **Step 2 — Crack the hash with the Password Cracker**
 
@@ -123,7 +123,7 @@ The hash was pasted into the Networkwalks Password Cracker, which ran a **dictio
 
 **Result:** Match found at 91/100 attempts — **`1qaz2wsx`**
 
-📸 `pwcrack-screenshots/passwordcracked.PNG`
+📸![Dashboard](screenshots/passwordcracked.PNG)
 
 **Step 3 — Unlock the PDF**
 
@@ -131,7 +131,7 @@ Opening the PDF with `1qaz2wsx` revealed:
 
 > 🎉 **Flag 3:** `nw{networkwalks_flag_260821_1}`
 
-📸 `pwcrack-screenshots/capturedflag3.PNG`
+📸![Dashboard](screenshots/capturedflag3.PNG)
 
 ---
 
@@ -183,7 +183,7 @@ Every activity in this report was carried out only against sample files provided
 
 ## 📁 Evidence
 
-Screenshots referenced above are stored in [`/pwcrack-screenshots`](./pwcrack-screenshots):
+Screenshots referenced above are stored in [`/screenshots`](./screenshots):
 
 - `fisthashed.PNG` — hash extracted for PDF 1
 - `passhash1.PNG` — Johnny GUI cracking PDF 1's hash → `password1`
@@ -193,13 +193,13 @@ Screenshots referenced above are stored in [`/pwcrack-screenshots`](./pwcrack-sc
 - `passwordcracked.PNG` — Networkwalks Password Cracker result → `1qaz2wsx`
 - `capturedflag3.PNG` — Flag 3 captured
 
-Raw extracted hashes are stored in [`/pwcrack-evidence`](./pwcrack-evidence):
+Raw extracted hashes are stored in [`/passcrack-evidence`](./passcrack-evidence):
 - `hash1.txt` — PDF 1 hash
 - `hash2.txt` / `My-Locked-PDF2_hash.txt` — PDF 2 hash (identical to each other)
 - `My-Locked-PDF3_hash.txt` — PDF 3 hash
 
 ---
 
-**👤 Author:** *(add your name)*
+**👤 Author:** *(Adedurotimi Aderemi)*
 **Program:** Cybersecurity & Ethical Hacking Internship — Networkwalks | Week 3 (Batch B083)
-**LinkedIn:** *(add your LinkedIn, optional)*
+**LinkedIn:** *(https:www.linkedin.com/in/adedurotimi-aderemi)*

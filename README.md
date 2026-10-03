@@ -5,7 +5,7 @@
 **Type:** Password/Hash Cracking (Authorized Lab Exercise)
 **Target:** 3 password-protected PDF files provided by Networkwalks Academy
 **Date:** 27 May 2026 (Module 1) & 26 August 2026 (Module 2)
-**Author:** *(add your name here)* — Cybersecurity Trainee, Networkwalks Program (Batch B083)
+**Author:** *(Adedurotimi Aderemi)* — Cybersecurity Trainee, Networkwalks Program (Batch B083)
 **Environment:** Windows (JTR + Johnny GUI), Web browser (Networkwalks online tools)
 
 ---
